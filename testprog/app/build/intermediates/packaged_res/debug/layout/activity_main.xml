@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".CalendarViewActivity"
+    android:gravity="center">
+
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="400dp"
+        android:layout_height="405dp"
+        android:layout_weight="10" />
+
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="37dp"
+        android:text="@string/tv_lb2_name"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/lvMemoList"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.6" />
+
+    <Button
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_weight="10"
+        android:text="@string/tv_lb_name" />
+
+
+
+</LinearLayout>
