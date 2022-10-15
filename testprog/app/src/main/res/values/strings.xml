@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">testprog</string>
+    <string name="app_name">推しを見守り隊♡</string>
+    <string name="tv_lb2_name"> まだ未定の推し活</string>
+    <string name="tv_lb_name">more</string>
 </resources>

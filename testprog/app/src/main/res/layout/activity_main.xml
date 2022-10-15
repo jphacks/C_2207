@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".CalendarViewActivity"
+    android:gravity="center">
+
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="400dp"
+        android:layout_height="405dp"
+        android:layout_weight="10" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="376dp"
+        android:layout_height="37dp"
+        android:text="@string/tv_lb2_name"
+        android:textSize="20sp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ListView
+        android:id="@+id/lvMemoList"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.6" />
+
+    <Button
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_weight="10"
+        android:text="@string/tv_lb_name" />
+
+
+
+</LinearLayout>
