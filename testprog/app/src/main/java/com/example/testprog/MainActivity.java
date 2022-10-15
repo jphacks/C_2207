@@ -9,7 +9,6 @@ import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.Toast;
 
-import com.example.testprog.R;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -41,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private View.OnClickListener onClick_button = new View.OnClickListener(){
+    private final View.OnClickListener onClick_button = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Intent intent = new Intent(getApplication(), com.example.testprog.SubActivity.class);
+            Intent intent = new Intent(getApplication(), SubActivity.class);
             startActivity(intent);
         }
     };
