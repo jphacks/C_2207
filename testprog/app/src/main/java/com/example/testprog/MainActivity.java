@@ -1,20 +1,18 @@
 package com.example.testprog;
 
-import androidx.appcompat.app.AppCompatActivity; //追加
-
-import android.database.Cursor; //追加
-import android.database.sqlite.SQLiteDatabase; //追加
-import android.database.sqlite.SQLiteStatement; //追加
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteStatement;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.CalendarView;
+import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
-import android.widget.EditText; //追加
-import android.widget.AdapterView; //追加
-import android.widget.SimpleCursorAdapter; //追加
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnDelete;
     ListView lvMemoList = null;
     int memoId = -1;
-    int sava_select = 0; // メモの追加 0:新規追加, 1:編集での追加
+    int save_select = 0; // メモの追加 0:新規追加, 1:編集での追加
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         etNote.setText(""); // メモ内容は空白
         btnSave.setEnabled(true); // ボタンの有効
 
-        sava_select = 0; // 新規追加の時に0
+        save_select = 0; // 新規追加の時に0
     }
 
     // 保存ボタン
@@ -187,6 +185,8 @@ public class MainActivity extends AppCompatActivity {
 
     // メモの削除
     public  void onDeleteButtonClick(View view) {
+        DatabaseHelper helper = new DatabaseHelper(MainActivity.this);
+        SQLiteDatabase db = helper.getWritableDatabase();
         try {
             String sqlDelete = "DELETE FROM notememo WHERE _id = ?"; // 選択しているメモの削除
             SQLiteStatement stmt = db.compileStatement(sqlDelete);
