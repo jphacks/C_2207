@@ -75,7 +75,7 @@
 
     <EditText
         android:id="@+id/etTitle"
-        android:layout_width="16dp"
+        android:layout_width="48dp"
         android:layout_height="wrap_content" />
 
 
