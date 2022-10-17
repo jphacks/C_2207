@@ -2611,6 +2611,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAdd
+id btnDelete
+id btnSave
 id button
 id buttonPanel
 id cache_measures
@@ -2699,6 +2702,8 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etNote
+id etTitle
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3216,6 +3221,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string add
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3226,6 +3232,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string deteil
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -3310,8 +3317,10 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string save
 string search_menu_title
 string status_bar_notification_info_overflow
+string title
 string tv_lb2_name
 string tv_lb_name
 style AlertDialog_AppCompat
