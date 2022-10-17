@@ -33,7 +33,16 @@
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:layout_weight="10"
+        android:onClick="onAddButtonClick"
         android:text="@string/tv_lb_name" />
+    
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onSaveButtonClick"
+        android:text="保存" />
 
 
 
