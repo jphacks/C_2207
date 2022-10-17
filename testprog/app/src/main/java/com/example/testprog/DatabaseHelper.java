@@ -19,8 +19,8 @@ import android.database.sqlite.SQLiteOpenHelper;
             StringBuilder sb = new StringBuilder();
             sb.append("CREATE TABLE notememo(");
             sb.append("_id INTEGER PRIMARY KEY, "); // 重複しないID
-            sb.append("name TEXT, ");
-            sb.append("note TEXT");
+            sb.append("name TEXT, "); // タイトル
+            sb.append("note TEXT"); // メモの内容
             sb.append(");");
 
             String sql = toString();
