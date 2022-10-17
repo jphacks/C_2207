@@ -14,7 +14,6 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 
@@ -44,12 +43,9 @@ public class MainActivity extends AppCompatActivity {
         setViews();
         CalendarView calendar = findViewById(R.id.calendar);
         calendar.setOnDateChangeListener(
-                new CalendarView.OnDateChangeListener() {
-                    @Override
-                    public void onSelectedDayChange(@NonNull CalendarView calendarView, int year, int month, int date) {
-                        String message = year + "/" + (month + 1) + "/" + date;
-                        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
-                    }
+                (calendarView, year, month, date) -> {
+                    String message = year + "/" + (month + 1) + "/" + date;
+                    Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
                 }
 
 
@@ -129,17 +125,14 @@ public class MainActivity extends AppCompatActivity {
     // メモリストの表示
     private void memoListDisplay() {
         DatabaseHelper helper = new DatabaseHelper(MainActivity.this);
-        SQLiteDatabase db = helper.getReadableDatabase(); // 表示
+        // 表示
 
-        try {
+        try (SQLiteDatabase db = helper.getReadableDatabase()) {
             String sql = "SELECT _id.name FROM notememo";
             Cursor cursor = db.rawQuery(sql, null);
             String[] from = {"name"};
             int[] to = {android.R.id.text1};
-            SimpleCursorAdapter simpleCursorAdapter = new SimpleCursorAdapter(this, android.R.layout.simple_list_item_1, cursor,from,to,0);
-        }
-        finally {
-            db.close();
+            SimpleCursorAdapter simpleCursorAdapter = new SimpleCursorAdapter(this, android.R.layout.simple_list_item_1, cursor, from, to, 0);
         }
     }
 
@@ -154,13 +147,12 @@ public class MainActivity extends AppCompatActivity {
             btnDelete.setEnabled(true);
 
             DatabaseHelper helper = new DatabaseHelper(MainActivity.this);
-            SQLiteDatabase db = helper.getReadableDatabase();
-            try {
-                String sql = "SELECT name, note FROM notememo WHERE _id = "+memoId; // メモをクリックしたときにタイトルとメモ内容を表示
-                Cursor cursor = db.rawQuery(sql,null);
+            try (SQLiteDatabase db = helper.getReadableDatabase()) {
+                String sql = "SELECT name, note FROM notememo WHERE _id = " + memoId; // メモをクリックしたときにタイトルとメモ内容を表示
+                Cursor cursor = db.rawQuery(sql, null);
                 String note = "";
                 String title = "";
-                while(cursor.moveToNext()) {
+                while (cursor.moveToNext()) {
                     int idxNote = cursor.getColumnIndex("note"); // メモの内容のインデックスを獲得
                     note = cursor.getString(idxNote); // メモの内容のインデックスからメモの内容を獲得する
 
@@ -173,9 +165,6 @@ public class MainActivity extends AppCompatActivity {
                 EditText etTitle = findViewById(R.id.etTitle);
                 etTitle.setText(title);
 
-            }
-            finally {
-                db.close();
             }
 
         }
