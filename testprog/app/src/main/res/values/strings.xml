@@ -2,4 +2,8 @@
     <string name="app_name">推しを見守り隊♡</string>
     <string name="tv_lb2_name"> まだ未定の推し活</string>
     <string name="tv_lb_name">more</string>
+    <string name="title">タイトル：</string>
+    <string name="save">保存</string>
+    <string name="add">追加</string>
+    <string name="deteil">削除</string>
 </resources>
