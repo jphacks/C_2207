@@ -3,7 +3,7 @@
     <string name="tv_lb2_name"> まだ未定の推し活</string>
     <string name="tv_lb_name">more</string>
     <string name="title">タイトル：</string>
-    <string name="save">保存</string>
-    <string name="add">追加</string>
-    <string name="deteil">削除</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_add">追加</string>
+    <string name="btn_delete">削除</string>
 </resources>
