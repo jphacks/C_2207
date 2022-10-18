@@ -23,7 +23,7 @@ import android.database.sqlite.SQLiteOpenHelper;
             sb.append("note TEXT"); // メモの内容
             sb.append(");");
 
-            String sql = toString();
+            String sql = sb.toString();
 
             db.execSQL(sql);
 
