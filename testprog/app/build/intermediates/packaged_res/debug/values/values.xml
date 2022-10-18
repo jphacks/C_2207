@@ -7,10 +7,10 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="add">追加</string>
     <string name="app_name">推しを見守り隊♡</string>
-    <string name="deteil">削除</string>
-    <string name="save">保存</string>
+    <string name="btn_add">追加</string>
+    <string name="btn_delete">削除</string>
+    <string name="btn_save">保存</string>
     <string name="title">タイトル：</string>
     <string name="tv_lb2_name"> まだ未定の推し活</string>
     <string name="tv_lb_name">more</string>

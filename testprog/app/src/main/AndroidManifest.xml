@@ -25,13 +25,8 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name=".SubActivity">
+        <activity android:name=".SubActivity">
         </activity>
-        <activity
-            android:name=".CalendarViewActivity">
-        </activity>
-
 
     </application>
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -21,15 +22,6 @@
         android:text="@string/tv_lb2_name"
         android:textSize="20sp" />
 
-    <EditText
-        android:id="@+id/etNote"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.4"
-        android:gravity="top"
-        android:inputType="textMultiLine"
-        android:autofillHints="" />
-
     <ListView
         android:id="@+id/lvMemoList"
         android:layout_width="match_parent"
@@ -40,49 +32,9 @@
     <Button
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="75dp"
         android:layout_weight="10"
-        android:onClick="onAddButtonClick"
         android:text="@string/tv_lb_name" />
-
-    <Button
-        android:id="@+id/btnAdd"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onAddButtonClick"
-        android:text="@string/add"/>
-    
-    <Button
-        android:id="@+id/btnSave"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:enabled="false"
-        android:onClick="onSaveButtonClick"
-        android:text="@string/save" />
-
-    <Button
-        android:id="@+id/btnDelete"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:enabled="false"
-        android:onClick="onDeleteButtonClick"
-        android:text="@string/deteil"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/title"
-        android:textSize="20sp"/>
-
-    <EditText
-        android:id="@+id/etTitle"
-        android:layout_width="48dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.4"
-        android:gravity="top"
-        android:inputType="textMultiLine"
-        android:autofillHints=""
-        android:hint="e.g 8"/>
 
 
 
