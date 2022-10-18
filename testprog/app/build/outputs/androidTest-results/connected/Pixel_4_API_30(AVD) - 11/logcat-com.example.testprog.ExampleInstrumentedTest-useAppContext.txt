@@ -1,0 +1,2 @@
+10-17 15:47:47.033 22742 22764 I TestRunner: started: useAppContext(com.example.testprog.ExampleInstrumentedTest)
+10-17 15:47:47.038 22742 22764 I TestRunner: finished: useAppContext(com.example.testprog.ExampleInstrumentedTest)

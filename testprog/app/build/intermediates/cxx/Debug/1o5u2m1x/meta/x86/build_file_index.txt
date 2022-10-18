@@ -1,0 +1,1 @@
+C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\cpp\CMakeLists.txt

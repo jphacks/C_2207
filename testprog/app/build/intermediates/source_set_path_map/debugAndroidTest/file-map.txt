@@ -1,0 +1,7 @@
+com.example.testprog.test.app-androidTest-0 C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\build\generated\res\resValues\androidTest\debug
+com.example.testprog.test.app-androidTest-1 C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\build\generated\res\rs\androidTest\debug
+com.example.testprog.test.app-mergeDebugAndroidTestResources-2 C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.testprog.test.app-mergeDebugAndroidTestResources-3 C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.testprog.test.app-merged_res-4 C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\build\intermediates\merged_res\debugAndroidTest
+com.example.testprog.test.app-androidTest-5 C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\androidTest\res
+com.example.testprog.test.app-androidTestDebug-6 C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\androidTestDebug\res

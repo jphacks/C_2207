@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\momon\.gradle\caches\transforms-3\1657eaacfdf73cb5b94d8778151083b3\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\momon\.gradle\caches\transforms-3\28075e3b5fe6386b541742e3f2e4f8fe\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\momon\.gradle\caches\transforms-3\0758de52a88bd0e13e04f350fcb3ffe3\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
@@ -44,27 +44,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\momon\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\momon\.gradle\caches\transforms-3\e73c86b3573ad4a7ff179a0b22b3e639\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\momon\.gradle\caches\transforms-3\e49e4dff70250dbb03e409465432a16f\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\momon\.gradle\caches\transforms-3\313ea14ffe4d03080b06e74a9195c166\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
 		INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:5:5-36:19
+ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:5:5-31:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\momon\.gradle\caches\transforms-3\1657eaacfdf73cb5b94d8778151083b3\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\momon\.gradle\caches\transforms-3\1657eaacfdf73cb5b94d8778151083b3\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\momon\.gradle\caches\transforms-3\28075e3b5fe6386b541742e3f2e4f8fe\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -122,13 +122,9 @@ ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\And
 	android:name
 		ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:25:17-52
 activity#com.example.testprog.SubActivity
-ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:28:9-30:20
+ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:28:9-29:20
 	android:name
-		ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:29:13-40
-activity#com.example.testprog.CalendarViewActivity
-ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:31:9-33:20
-	android:name
-		ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:32:13-49
+		ADDED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:28:19-46
 uses-sdk
 INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml

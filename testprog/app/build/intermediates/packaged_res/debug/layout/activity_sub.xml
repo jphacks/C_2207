@@ -6,11 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".SubActivity">
 
+    <ListView
+        android:id="@+id/lvMemoList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.6"/>
+
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="230dp" />
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="133dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
