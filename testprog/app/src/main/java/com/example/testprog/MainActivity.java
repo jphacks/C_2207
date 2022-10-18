@@ -11,12 +11,16 @@ import android.widget.Toast;
 
 
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Intent intent = new Intent(MainActivity.this,AsyncTask.class);
+        //startActivity(intent);
 
         setViews();
         CalendarView calendar = findViewById(R.id.calendar);
@@ -47,4 +51,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     };
+
+
+
 }
