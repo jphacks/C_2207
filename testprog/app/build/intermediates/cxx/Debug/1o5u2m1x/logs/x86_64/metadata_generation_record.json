@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 23 min SDK version: x86_64",
+    "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -953336835
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\.cxx\\Debug\\1o5u2m1x\\x86_64\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 142561754
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1691976305
+  }
+]

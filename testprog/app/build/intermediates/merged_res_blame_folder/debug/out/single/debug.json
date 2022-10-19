@@ -12,10 +12,6 @@
         "source": "C:\\Users\\momon\\.gradle\\daemon\\7.4\\com.example.testprog.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.testprog.app-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "com.example.testprog.app-main-31:/layout/activity_main.xml"
-    },
-    {
         "merged": "com.example.testprog.app-merged_res-29:/layout_activity_sub.xml.flat",
         "source": "com.example.testprog.app-main-31:/layout/activity_sub.xml"
     },
@@ -24,16 +20,16 @@
         "source": "C:\\Users\\momon\\.gradle\\daemon\\7.4\\com.example.testprog.app-main-31:\\xml\\data_extraction_rules.xml"
     },
     {
+        "merged": "C:\\Users\\momon\\.gradle\\daemon\\7.4\\com.example.testprog.app-merged_res-29:\\layout_activity_sub.xml.flat",
+        "source": "C:\\Users\\momon\\.gradle\\daemon\\7.4\\com.example.testprog.app-main-31:\\layout\\activity_sub.xml"
+    },
+    {
         "merged": "C:\\Users\\momon\\.gradle\\daemon\\7.4\\com.example.testprog.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\momon\\.gradle\\daemon\\7.4\\com.example.testprog.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\momon\\.gradle\\daemon\\7.4\\com.example.testprog.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\momon\\.gradle\\daemon\\7.4\\com.example.testprog.app-main-31:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\momon\\.gradle\\daemon\\7.4\\com.example.testprog.app-merged_res-29:\\layout_activity_sub.xml.flat",
-        "source": "C:\\Users\\momon\\.gradle\\daemon\\7.4\\com.example.testprog.app-main-31:\\layout\\activity_sub.xml"
     },
     {
         "merged": "C:\\Users\\momon\\.gradle\\daemon\\7.4\\com.example.testprog.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
