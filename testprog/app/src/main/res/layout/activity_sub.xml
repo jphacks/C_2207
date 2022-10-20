@@ -6,21 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".SubActivity">
 
-    <ListView
-        android:id="@+id/lvMemoList"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginBottom="10dp"
-        android:layout_weight="0.6"
-        tools:ignore="MissingConstraints" />
 
-
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="133dp"
-        tools:ignore="MissingConstraints" />
+        android:text="タイトル："
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内容："
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <EditText
+        android:id="@+id/etNote"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="415dp"
+        android:layout_height="60dp"
+        android:text="保存"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="611dp" />
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="415dp"
+        android:layout_height="60dp"
+        android:text="削除"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
