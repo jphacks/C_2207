@@ -24,6 +24,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.Testprog" >
         <activity
+            android:name="com.example.testprog.MySettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_my_settings" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.testprog.MainActivity"
             android:exported="true" >
             <intent-filter>
@@ -36,8 +44,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name="com.example.testprog.SubActivity" >
-        </activity>
+        <activity android:name="com.example.testprog.SubActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
