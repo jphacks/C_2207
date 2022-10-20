@@ -1,7 +1,12 @@
 R_DEF: Internal format may change without notice
 local
+array default_corge_options
+array entries_corge_options
+array entries_qux_type
 array reply_entries
 array reply_values
+array values_corge_options
+array values_quex_type
 color black
 color purple_200
 color purple_500
@@ -17,6 +22,7 @@ id lvMemoList
 id menuitem_settings
 id settings
 id textView
+id textview_settings
 layout activity_main
 layout activity_sub
 layout settings_activity
@@ -30,6 +36,12 @@ string attachment_title
 string btn_add
 string btn_delete
 string btn_save
+string entry_corge_a
+string entry_corge_b
+string entry_corge_c
+string entry_qux_1
+string entry_qux_2
+string entry_qux_3
 string messages_header
 string reply_title
 string signature_title
@@ -39,6 +51,12 @@ string title
 string title_activity_my_settings
 string tv_lb2_name
 string tv_lb_name
+string value_corge_a
+string value_corge_b
+string value_corge_c
+string value_qux_1
+string value_qux_2
+string value_qux_3
 style Theme.Testprog
 xml backup_rules
 xml data_extraction_rules

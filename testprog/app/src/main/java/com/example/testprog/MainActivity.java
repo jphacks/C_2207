@@ -10,6 +10,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.Toast;
+import androidx.preference.PreferenceManager;
+import android.content.SharedPreferences;
+import android.widget.TextView;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 
 
@@ -58,6 +65,30 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         return false;
+    }
+
+    @Override
+    protected void onResume()
+    {
+        super.onResume();
+
+        // 設定値の読み込み
+        SharedPreferences prefs                   = PreferenceManager.getDefaultSharedPreferences( getApplicationContext() );
+        boolean           bFooFunction            = prefs.getBoolean( "foo_function", false );
+        boolean           bBarFunction            = prefs.getBoolean( "bar_function", true );
+        String            strBazName              = prefs.getString( "baz_name", "Baaaz" );
+        String            strQuxType              = prefs.getString( "qux_type", "2" );
+        String[]          astrDefaultCorgeOptions = getResources().getStringArray( R.array.default_corge_options );
+        Set<String>       setstrCorgeOptions      = prefs.getStringSet( "corge_options", new HashSet<>( Arrays.asList( astrDefaultCorgeOptions ) ) );
+
+        // 設定値の表示
+        TextView textviewSettings = findViewById( R.id.textview_settings );
+        String strSettings = "Foo function : " + bFooFunction + "\n" +
+                "Bar function : " + bBarFunction + "\n" +
+                "Baz name : " + strBazName + "\n" +
+                "Qux type : " + strQuxType + "\n" +
+                "Corge options : " + setstrCorgeOptions + "\n";
+        textviewSettings.setText( strSettings );
     }
 
     private void setViews() {

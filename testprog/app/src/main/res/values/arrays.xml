@@ -9,4 +9,35 @@
         <item>reply</item>
         <item>reply_all</item>
     </string-array>
+
+
+    <!-- My Settings -->
+    <string-array name="entries_qux_type">
+        <item>@string/entry_qux_1</item>
+        <item>@string/entry_qux_2</item>
+        <item>@string/entry_qux_3</item>
+    </string-array>
+
+    <string-array name="values_quex_type">
+        <item>@string/value_qux_1</item>
+        <item>@string/value_qux_2</item>
+        <item>@string/value_qux_3</item>
+    </string-array>
+
+    <string-array name="entries_corge_options">
+        <item>@string/entry_corge_a</item>
+        <item>@string/entry_corge_b</item>
+        <item>@string/entry_corge_c</item>
+    </string-array>
+
+    <string-array name="values_corge_options">
+        <item>@string/value_corge_a</item>
+        <item>@string/value_corge_b</item>
+        <item>@string/value_corge_c</item>
+    </string-array>
+
+    <string-array name="default_corge_options">
+        <item>@string/value_corge_a</item>
+        <item>@string/value_corge_c</item>
+    </string-array>
 </resources>

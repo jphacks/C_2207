@@ -10729,8 +10729,27 @@
     </string-array><string-array name="reply_values">
         <item>reply</item>
         <item>reply_all</item>
+    </string-array><string-array name="entries_qux_type">
+        <item>@string/entry_qux_1</item>
+        <item>@string/entry_qux_2</item>
+        <item>@string/entry_qux_3</item>
+    </string-array><string-array name="values_quex_type">
+        <item>@string/value_qux_1</item>
+        <item>@string/value_qux_2</item>
+        <item>@string/value_qux_3</item>
+    </string-array><string-array name="entries_corge_options">
+        <item>@string/entry_corge_a</item>
+        <item>@string/entry_corge_b</item>
+        <item>@string/entry_corge_c</item>
+    </string-array><string-array name="values_corge_options">
+        <item>@string/value_corge_a</item>
+        <item>@string/value_corge_b</item>
+        <item>@string/value_corge_c</item>
+    </string-array><string-array name="default_corge_options">
+        <item>@string/value_corge_a</item>
+        <item>@string/value_corge_c</item>
     </string-array></file><file path="C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\res\values\colors.xml" qualifiers=""><color name="purple_200">#FFBB86FC</color><color name="purple_500">#FF6200EE</color><color name="purple_700">#FF3700B3</color><color name="teal_200">#FF03DAC5</color><color name="teal_700">#FF018786</color><color name="black">#FF000000</color><color name="white">#FFFFFFFF</color></file><file path="C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">推しを見守り隊♡</string><string name="tv_lb2_name"> まだ未定の推し活</string><string name="tv_lb_name">more</string><string name="title">タイトル：</string><string name="btn_save">保存</string><string name="btn_add">追加</string><string name="btn_delete">削除</string><string name="title_activity_my_settings">MySettingsActivity</string><string name="messages_header">Messages</string><string name="sync_header">Sync</string><string name="signature_title">Your signature</string><string name="reply_title">Default reply action</string><string name="sync_title">Sync email periodically</string><string name="attachment_title">Download incoming attachments</string><string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string><string name="attachment_summary_off">Only download attachments when manually requested</string></file><file path="C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.Testprog" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </string><string name="attachment_summary_off">Only download attachments when manually requested</string><string name="entry_qux_1">ライブ情報</string><string name="entry_qux_2">出演情報</string><string name="entry_qux_3">グッズ情報</string><string name="entry_corge_a">ライブ情報</string><string name="entry_corge_b">出演情報</string><string name="entry_corge_c">グッズ情報</string><string name="value_qux_1">ライブ情報</string><string name="value_qux_2">出演情報</string><string name="value_qux_3">グッズ情報</string><string name="value_corge_a">ライブ情報</string><string name="value_corge_b">出演情報</string><string name="value_corge_c">グッズ情報</string></file><file path="C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.Testprog" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

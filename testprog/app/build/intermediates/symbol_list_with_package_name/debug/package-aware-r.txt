@@ -63,8 +63,13 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array default_corge_options
+array entries_corge_options
+array entries_qux_type
 array reply_entries
 array reply_values
+array values_corge_options
+array values_quex_type
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -3037,6 +3042,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textview_settings
 id time
 id title
 id titleDividerNoCustom
@@ -3327,6 +3333,12 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string copy
+string entry_corge_a
+string entry_corge_b
+string entry_corge_c
+string entry_qux_1
+string entry_qux_2
+string entry_qux_3
 string error_icon_content_description
 string expand_button_title
 string exposed_dropdown_menu_content_description
@@ -3428,6 +3440,12 @@ string tv_lb2_name
 string tv_lb_name
 string v7_preference_off
 string v7_preference_on
+string value_corge_a
+string value_corge_b
+string value_corge_c
+string value_qux_1
+string value_qux_2
+string value_qux_3
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

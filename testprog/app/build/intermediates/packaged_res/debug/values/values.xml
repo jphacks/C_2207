@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="default_corge_options">
+        <item>@string/value_corge_a</item>
+        <item>@string/value_corge_c</item>
+    </string-array>
+    <string-array name="entries_corge_options">
+        <item>@string/entry_corge_a</item>
+        <item>@string/entry_corge_b</item>
+        <item>@string/entry_corge_c</item>
+    </string-array>
+    <string-array name="entries_qux_type">
+        <item>@string/entry_qux_1</item>
+        <item>@string/entry_qux_2</item>
+        <item>@string/entry_qux_3</item>
+    </string-array>
     <string-array name="reply_entries">
         <item>Reply</item>
         <item>Reply to all</item>
@@ -7,6 +21,16 @@
     <string-array name="reply_values">
         <item>reply</item>
         <item>reply_all</item>
+    </string-array>
+    <string-array name="values_corge_options">
+        <item>@string/value_corge_a</item>
+        <item>@string/value_corge_b</item>
+        <item>@string/value_corge_c</item>
+    </string-array>
+    <string-array name="values_quex_type">
+        <item>@string/value_qux_1</item>
+        <item>@string/value_qux_2</item>
+        <item>@string/value_qux_3</item>
     </string-array>
     <color name="black">#FF000000</color>
     <color name="purple_200">#FFBB86FC</color>
@@ -23,6 +47,12 @@
     <string name="btn_add">追加</string>
     <string name="btn_delete">削除</string>
     <string name="btn_save">保存</string>
+    <string name="entry_corge_a">ライブ情報</string>
+    <string name="entry_corge_b">出演情報</string>
+    <string name="entry_corge_c">グッズ情報</string>
+    <string name="entry_qux_1">ライブ情報</string>
+    <string name="entry_qux_2">出演情報</string>
+    <string name="entry_qux_3">グッズ情報</string>
     <string name="messages_header">Messages</string>
     <string name="reply_title">Default reply action</string>
     <string name="signature_title">Your signature</string>
@@ -32,6 +62,12 @@
     <string name="title_activity_my_settings">MySettingsActivity</string>
     <string name="tv_lb2_name"> まだ未定の推し活</string>
     <string name="tv_lb_name">more</string>
+    <string name="value_corge_a">ライブ情報</string>
+    <string name="value_corge_b">出演情報</string>
+    <string name="value_corge_c">グッズ情報</string>
+    <string name="value_qux_1">ライブ情報</string>
+    <string name="value_qux_2">出演情報</string>
+    <string name="value_qux_3">グッズ情報</string>
     <style name="Theme.Testprog" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

@@ -22,4 +22,20 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="entry_qux_1">ライブ情報</string>
+    <string name="entry_qux_2">出演情報</string>
+    <string name="entry_qux_3">グッズ情報</string>
+
+    <string name="entry_corge_a">ライブ情報</string>
+    <string name="entry_corge_b">出演情報</string>
+    <string name="entry_corge_c">グッズ情報</string>
+
+    <string name="value_qux_1">ライブ情報</string>
+    <string name="value_qux_2">出演情報</string>
+    <string name="value_qux_3">グッズ情報</string>
+
+    <string name="value_corge_a">ライブ情報</string>
+    <string name="value_corge_b">出演情報</string>
+    <string name="value_corge_c">グッズ情報</string>
 </resources>
