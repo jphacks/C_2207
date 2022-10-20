@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="My settings">
+
+        <CheckBoxPreference
+            app:key="foo_function"
+            app:defaultValue="false"
+            app:title="Foo function"
+            app:summary="Whether to enable or disable Foo function." />
+
+        <SwitchPreference
+            app:key="bar_function"
+            app:defaultValue="true"
+            app:title="Bar function"
+            app:summary="Whether to enable or disable Bar function." />
+
+        <EditTextPreference
+            app:key="baz_name"
+            app:defaultValue="Baaaz"
+            app:title="取得するアカウント"
+            app:summary="＠以降を入力してください" />
+
+        <ListPreference
+            app:key="qux_type"
+            app:defaultValue="2"
+            app:entries="@array/entries_qux_type"
+            app:entryValues="@array/values_quex_type"
+            app:title="Qux type"
+            app:summary="Set the type of Baz." />
+
+        <MultiSelectListPreference
+            app:key="corge_options"
+            app:defaultValue="@array/default_corge_options"
+            app:entries="@array/entries_corge_options"
+            app:entryValues="@array/values_corge_options"
+            app:title="登録する項目"
+            app:summary="カレンダー登録したい項目を教えてください" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

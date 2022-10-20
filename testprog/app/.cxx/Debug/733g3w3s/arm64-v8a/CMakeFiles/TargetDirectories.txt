@@ -1,0 +1,3 @@
+C:/Users/suzukikaho/AndroidStudioProjects/C_2207/testprog/app/.cxx/Debug/733g3w3s/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/suzukikaho/AndroidStudioProjects/C_2207/testprog/app/.cxx/Debug/733g3w3s/arm64-v8a/CMakeFiles/testprog.dir
+C:/Users/suzukikaho/AndroidStudioProjects/C_2207/testprog/app/.cxx/Debug/733g3w3s/arm64-v8a/CMakeFiles/edit_cache.dir
