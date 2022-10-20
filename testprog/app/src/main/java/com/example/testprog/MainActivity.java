@@ -3,12 +3,18 @@ package com.example.testprog;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteStatement;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.CalendarView;
+import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Toast;
 import androidx.preference.PreferenceManager;
 import android.content.SharedPreferences;
@@ -27,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_sub);
+
 
         //Intent intent = new Intent(MainActivity.this,AsyncTask.class);
         //startActivity(intent);
@@ -104,6 +112,22 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     };
+
+
+
+    // 追加ボタン
+    public void onAddButtonClick(View view){
+
+        EditText etTitle = findViewById(R.id.etTitle);
+        etTitle.setText("new memo");
+        EditText etNote = findViewById(R.id.etNote);
+        etNote.setText("");
+        btnSave.setEnabled(true);
+
+        save_select = 0;
+
+    }
+
 
 
 
