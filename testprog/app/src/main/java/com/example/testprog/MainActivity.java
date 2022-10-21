@@ -105,10 +105,14 @@ public class MainActivity extends AppCompatActivity {
         textviewSettings.setText( strSettings );
     }
 
+
+
+
     private void setViews() {
         Button nextButton = findViewById(R.id.btnAdd);
         nextButton.setOnClickListener(onClick_button);
     }
+
 
 
     private final View.OnClickListener onClick_button = new View.OnClickListener() {
