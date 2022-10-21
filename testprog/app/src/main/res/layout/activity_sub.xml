@@ -61,10 +61,10 @@
         android:layout_height="60dp"
         android:text="保存"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="611dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="596dp" />
+
     <Button
         android:id="@+id/btnDelete"
         android:layout_width="415dp"

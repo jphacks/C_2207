@@ -1,10 +1,12 @@
 package com.example.testprog;
 
 import android.annotation.SuppressLint;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteStatement;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -33,7 +35,7 @@ public class SubActivity extends AppCompatActivity {
 
             //memoListDisplay();
 
-           // lvMemoList.setOnItemClickListener(new ListItemClickListener());
+           lvMemoList.setOnItemClickListener(new ListItemClickListener());
 
         }
 
@@ -129,7 +131,7 @@ public class SubActivity extends AppCompatActivity {
         }
 
     }
-/*
+*/
     // Listをクリックしたときのリスナークラス
     private class ListItemClickListener implements AdapterView.OnItemClickListener {
         @Override
@@ -191,10 +193,10 @@ public class SubActivity extends AppCompatActivity {
         btnDelete.setEnabled(false);
         btnSave.setEnabled(false);
 
-        memoListDisplay();
+        //memoListDisplay();
 
     }
 
-*/
+
 
 }
