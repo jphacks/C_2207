@@ -29,9 +29,10 @@
         android:id="@+id/etTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:hint="e.g 5"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="29dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="29dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -48,10 +49,11 @@
         android:layout_height="0dp"
         android:layout_weight="0.4"
         android:gravity="top"
+        android:hint="e.g 5"
         android:inputType="textMultiLine"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
         tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="372dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="372dp" />
 
     <Button
         android:id="@+id/btnSave"

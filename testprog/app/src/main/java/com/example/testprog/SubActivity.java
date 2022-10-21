@@ -1,6 +1,8 @@
 package com.example.testprog;
 
 import android.annotation.SuppressLint;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteStatement;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -48,7 +50,7 @@ public class SubActivity extends AppCompatActivity {
         save_select = 0;
 
     }
-/*
+
     // 保存ボタン
     public void onSaveButtonClick(View view){
         EditText etNote = findViewById(R.id.etNote);
@@ -102,10 +104,13 @@ public class SubActivity extends AppCompatActivity {
         btnSave.setEnabled(false);
         btnDelete.setEnabled(false);
 
-        memoListDisplay();
+        //memoListDisplay();
 
     }
 
+
+
+/*
     // メモリスト表示
     private void memoListDisplay(){
 
@@ -113,7 +118,7 @@ public class SubActivity extends AppCompatActivity {
         SQLiteDatabase db = helper.getReadableDatabase();
         try {
             String sql = "SELECT _id,name FROM notememo";
-            Cursor cursor = db.rawQuery(sql,null);
+            Cursor cursor = db.rawQuery(sql, null);
             String[] from = {"name"};
             int[] to = {android.R.id.text1};
             SimpleCursorAdapter simpleCursorAdapter = new SimpleCursorAdapter(this,android.R.layout.simple_list_item_1,cursor,from,to,0);
@@ -124,7 +129,7 @@ public class SubActivity extends AppCompatActivity {
         }
 
     }
-
+/*
     // Listをクリックしたときのリスナークラス
     private class ListItemClickListener implements AdapterView.OnItemClickListener {
         @Override
