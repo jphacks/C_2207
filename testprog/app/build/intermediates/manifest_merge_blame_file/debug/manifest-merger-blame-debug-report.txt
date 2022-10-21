@@ -6,100 +6,100 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml
+8-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml
+9-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:7:5-39:19
+13-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:7:5-39:19
 14        android:allowBackup="true"
-14-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:8:9-35
+14-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.8.0] C:\Users\suzukikaho\.gradle\caches\transforms-3\28a1708219c3158e49b329d141e5cfff\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+15-->[androidx.core:core:1.8.0] C:\Users\momon\.gradle\caches\transforms-3\28a1708219c3158e49b329d141e5cfff\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 16        android:dataExtractionRules="@xml/data_extraction_rules"
-16-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:9:9-65
+16-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:9:9-65
 17        android:debuggable="true"
 18        android:extractNativeLibs="false"
 19        android:fullBackupContent="@xml/backup_rules"
-19-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:10:9-54
+19-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:10:9-54
 20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:11:9-43
+20-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:11:9-43
 21        android:label="@string/app_name"
-21-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:12:9-41
+21-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:12:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:13:9-54
+22-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:13:9-54
 23        android:supportsRtl="true"
-23-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:14:9-35
+23-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:14:9-35
 24        android:testOnly="true"
 25        android:theme="@style/Theme.Testprog" >
-25-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:15:9-46
+25-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:15:9-46
 26        <activity
-26-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:17:9-24:20
+26-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:17:9-24:20
 27            android:name="com.example.testprog.MySettingsActivity"
-27-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:18:13-47
+27-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:18:13-47
 28            android:exported="false"
-28-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:19:13-37
+28-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:19:13-37
 29            android:label="@string/title_activity_my_settings" >
-29-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:20:13-63
+29-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:20:13-63
 30            <meta-data
-30-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:21:13-23:36
+30-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:21:13-23:36
 31                android:name="android.app.lib_name"
-31-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:22:17-52
+31-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:22:17-52
 32                android:value="" />
-32-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:23:17-33
+32-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:23:17-33
 33        </activity>
 34        <activity
-34-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:25:9-37:20
+34-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:25:9-37:20
 35            android:name="com.example.testprog.MainActivity"
-35-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:26:13-41
+35-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:26:13-41
 36            android:exported="true" >
-36-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:27:13-36
+36-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:27:13-36
 37            <intent-filter>
-37-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:28:13-32:29
+37-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:28:13-32:29
 38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:29:17-69
-38-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:29:25-66
+38-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:29:17-69
+38-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:29:25-66
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:31:17-77
-40-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:31:27-74
+40-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:31:17-77
+40-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:31:27-74
 41            </intent-filter>
 42
 43            <meta-data
-43-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:21:13-23:36
+43-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:21:13-23:36
 44                android:name="android.app.lib_name"
-44-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:22:17-52
+44-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:22:17-52
 45                android:value="" />
-45-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:23:17-33
+45-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:23:17-33
 46        </activity>
 47        <activity android:name="com.example.testprog.SubActivity" />
-47-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:38:9-58
-47-->C:\Users\suzukikaho\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:38:19-46
+47-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:38:9-58
+47-->C:\Users\momon\AndroidStudioProjects\C_2207\testprog\app\src\main\AndroidManifest.xml:38:19-46
 48
 49        <provider
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzukikaho\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\momon\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 50            android:name="androidx.startup.InitializationProvider"
-50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzukikaho\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\momon\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 51            android:authorities="com.example.testprog.androidx-startup"
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzukikaho\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\momon\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 52            android:exported="false" >
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzukikaho\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\momon\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 53            <meta-data
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzukikaho\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\momon\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzukikaho\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\momon\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 55                android:value="androidx.startup" />
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzukikaho\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\momon\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 56            <meta-data
-56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzukikaho\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\momon\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzukikaho\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\momon\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 58                android:value="androidx.startup" />
-58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzukikaho\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\momon\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 59        </provider>
 60    </application>
 61

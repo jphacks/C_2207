@@ -2682,7 +2682,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
+id btnAdd
+id btnDelete
+id btnSave
 id buttonPanel
 id cache_measures
 id calendar
@@ -2770,6 +2772,8 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etNote
+id etTitle
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3032,7 +3036,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
+id textView4
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
