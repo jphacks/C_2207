@@ -26,6 +26,7 @@
         android:layout_weight="10" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="376dp"
         android:layout_height="37dp"
         android:text="@string/tv_lb2_name"
@@ -36,7 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginBottom="10dp"
-        android:layout_weight="0.6" />
+        android:layout_weight="0.6"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnAdd"

@@ -25,6 +25,7 @@ id etTitle
 id lvMemoList
 id menuitem_settings
 id settings
+id textView
 id textView4
 id textview_settings
 layout activity_main
