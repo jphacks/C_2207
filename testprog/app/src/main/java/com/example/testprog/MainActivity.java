@@ -1,27 +1,19 @@
 package com.example.testprog;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteStatement;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.CalendarView;
-import android.widget.EditText;
-import android.widget.ListView;
-import android.widget.Toast;
-import androidx.preference.PreferenceManager;
-import android.content.SharedPreferences;
 import android.widget.TextView;
-import android.widget.Button;
+import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.preference.PreferenceManager;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -39,13 +31,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setContentView(R.layout.activity_sub);
 
-
-        //Intent intent = new Intent(MainActivity.this,AsyncTask.class);
-        //startActivity(intent);
 
         setViews();
+
         CalendarView calendar = findViewById(R.id.calendar);
         calendar.setOnDateChangeListener(
                 new CalendarView.OnDateChangeListener() {
@@ -58,6 +47,21 @@ public class MainActivity extends AppCompatActivity {
 
         );
 
+         /*
+        Button sendkaigi = (Button)findViewById(R.id.btnAdd);
+        sendkaigi.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                //インテントの作成
+                Intent intent = new Intent(getApplication(), SubActivity.class);
+
+                intent.putExtra("name","meeting");
+                //遷移先の画面起動
+                startActivity(intent);
+            }
+        });
+
+          */
 
     }
     // オプションメニュー作成時の処理
@@ -108,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     private void setViews() {
         Button nextButton = findViewById(R.id.btnAdd);
         nextButton.setOnClickListener(onClick_button);
@@ -115,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    private final View.OnClickListener onClick_button = new View.OnClickListener() {
+    private View.OnClickListener onClick_button = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             Intent intent = new Intent(getApplication(), SubActivity.class);
@@ -123,8 +128,7 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-
-
+/*
     // 追加ボタン
     public void onAddButtonClick(View view){
 
@@ -137,6 +141,10 @@ public class MainActivity extends AppCompatActivity {
         int save_select = 0;
 
     }
+
+ */
+
+
 
 
 

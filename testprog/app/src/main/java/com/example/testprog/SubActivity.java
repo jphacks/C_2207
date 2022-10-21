@@ -1,33 +1,18 @@
 package com.example.testprog;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.Activity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import android.content.Intent;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Toast;
-import android.content.SharedPreferences;
-import android.widget.TextView;
-
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
-
-// 山田追加分
+import android.annotation.SuppressLint;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteStatement;
+import android.os.Bundle;
+import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class SubActivity extends AppCompatActivity {
@@ -39,6 +24,7 @@ public class SubActivity extends AppCompatActivity {
     int memoId = -1;
     int save_select = 0;    // 0:新規追加　1:編集の場合
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,21 +32,14 @@ public class SubActivity extends AppCompatActivity {
 
             btnSave = findViewById(R.id.btnSave);
             btnDelete = findViewById(R.id.btnDelete);
-            //lvMemoList = findViewById(R.id.lvMemoList);
+            lvMemoList = findViewById(R.id.lvMemoList);
 
-            memoListDisplay();
+            //memoListDisplay();
 
-            lvMemoList.setOnItemClickListener(new ListItemClickListener());
+           // lvMemoList.setOnItemClickListener(new ListItemClickListener());
 
         }
-//        Button backButton = findViewById(R.id.button);
-//        backButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                finish();
-//            }
-//        });
-//    }
+
 
     // 追加ボタン
     public void onAddButtonClick(View view){
@@ -74,7 +53,7 @@ public class SubActivity extends AppCompatActivity {
         save_select = 0;
 
     }
-
+/*
     // 保存ボタン
     public void onSaveButtonClick(View view){
         EditText etNote = findViewById(R.id.etNote);
@@ -216,6 +195,6 @@ public class SubActivity extends AppCompatActivity {
 
     }
 
-
+*/
 
 }
