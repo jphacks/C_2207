@@ -11,11 +11,11 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": -1078223928
+    "memoizedHashCode": -1061614554
   },
   {
     "level_": 0,
-    "message_": "JSON \u0027C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\.cxx\\RelWithDebInfo\\5s3362m2\\x86\\android_gradle_build.json\u0027 was up-to-date",
+    "message_": "rebuilding JSON C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\.cxx\\RelWithDebInfo\\5s3362m2\\x86\\android_gradle_build.json due to:",
     "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
     "tag_": "release|x86",
     "diagnosticCode_": 0,
@@ -25,7 +25,147 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": -1689223439
+    "memoizedHashCode": -1710828840
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1716361580
+  },
+  {
+    "level_": 0,
+    "message_": "- a dependent build file changed",
+    "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1755077359
+  },
+  {
+    "level_": 0,
+    "message_": "  - C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1587037015
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\.cxx\\RelWithDebInfo\\5s3362m2\\x86\u0027",
+    "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2050323960
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\.cxx\\RelWithDebInfo\\5s3362m2\\x86\u0027",
+    "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1068611076
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake @echo off\n\"C:\\\\Users\\\\momon\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.18.1\\\\bin\\\\cmake.exe\" ^\n  \"-HC:\\\\Users\\\\momon\\\\AndroidStudioProjects\\\\C_2207\\\\testprog\\\\app\\\\src\\\\main\\\\cpp\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d23\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-23\" ^\n  \"-DANDROID_ABI\u003dx86\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86\" ^\n  \"-DANDROID_NDK\u003dC:\\\\Users\\\\momon\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dC:\\\\Users\\\\momon\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dC:\\\\Users\\\\momon\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dC:\\\\Users\\\\momon\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.18.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\momon\\\\AndroidStudioProjects\\\\C_2207\\\\testprog\\\\app\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\5s3362m2\\\\obj\\\\x86\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\momon\\\\AndroidStudioProjects\\\\C_2207\\\\testprog\\\\app\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\5s3362m2\\\\obj\\\\x86\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\" ^\n  \"-BC:\\\\Users\\\\momon\\\\AndroidStudioProjects\\\\C_2207\\\\testprog\\\\app\\\\.cxx\\\\RelWithDebInfo\\\\5s3362m2\\\\x86\" ^\n  -GNinja\n",
+    "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 158295442
+  },
+  {
+    "level_": 0,
+    "message_": "@echo off\n\"C:\\\\Users\\\\momon\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.18.1\\\\bin\\\\cmake.exe\" ^\n  \"-HC:\\\\Users\\\\momon\\\\AndroidStudioProjects\\\\C_2207\\\\testprog\\\\app\\\\src\\\\main\\\\cpp\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d23\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-23\" ^\n  \"-DANDROID_ABI\u003dx86\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86\" ^\n  \"-DANDROID_NDK\u003dC:\\\\Users\\\\momon\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dC:\\\\Users\\\\momon\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dC:\\\\Users\\\\momon\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dC:\\\\Users\\\\momon\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.18.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\momon\\\\AndroidStudioProjects\\\\C_2207\\\\testprog\\\\app\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\5s3362m2\\\\obj\\\\x86\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\momon\\\\AndroidStudioProjects\\\\C_2207\\\\testprog\\\\app\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\5s3362m2\\\\obj\\\\x86\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\" ^\n  \"-BC:\\\\Users\\\\momon\\\\AndroidStudioProjects\\\\C_2207\\\\testprog\\\\app\\\\.cxx\\\\RelWithDebInfo\\\\5s3362m2\\\\x86\" ^\n  -GNinja\n",
+    "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2140834897
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\.cxx\\RelWithDebInfo\\5s3362m2\\x86\\compile_commands.json.bin normally",
+    "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1643044442
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1404015329
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\.cxx\\RelWithDebInfo\\5s3362m2\\x86\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -636647220
   },
   {
     "level_": 0,
@@ -39,6 +179,6 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": -969488257
+    "memoizedHashCode": -952878883
   }
 ]
