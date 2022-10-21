@@ -124,7 +124,7 @@
         "rootBuildGradleFolder": "C:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog",
         "sdkFolder": "C:\\Users\\momon\\AppData\\Local\\Android\\Sdk",
         "isBuildOnlyTargetAbiEnabled": true,
-        "ideBuildTargetAbi": "x86",
+        "ideBuildTargetAbi": "x86,armeabi-v7a,armeabi",
         "isCmakeBuildCohabitationEnabled": false,
         "isPrefabEnabled": false
       },

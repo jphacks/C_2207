@@ -83,7 +83,7 @@ public class SubActivity extends AppCompatActivity {
         EditText etTitle = findViewById(R.id.etTitle);
         String title = etTitle.getText().toString();
 
-        DatabaseHelper helper = new DatabaseHelper(MainActivity.this);
+        DatabaseHelper helper = new DatabaseHelper(SubActivity.this);
         SQLiteDatabase db = helper.getWritableDatabase();
 
         if(save_select==1){
@@ -135,7 +135,7 @@ public class SubActivity extends AppCompatActivity {
     // メモリスト表示
     private void memoListDisplay(){
 
-        DatabaseHelper helper = new DatabaseHelper(MainActivity.this);
+        DatabaseHelper helper = new DatabaseHelper(SubActivity.this);
         SQLiteDatabase db = helper.getReadableDatabase();
         try {
             String sql = "SELECT _id,name FROM notememo";
