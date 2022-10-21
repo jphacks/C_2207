@@ -2,6 +2,8 @@ package com.example.testprog;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -19,6 +21,7 @@ import android.widget.Toast;
 import androidx.preference.PreferenceManager;
 import android.content.SharedPreferences;
 import android.widget.TextView;
+import android.widget.Button;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -28,6 +31,9 @@ import java.util.Set;
 
 
 public class MainActivity extends AppCompatActivity {
+
+    Button btnSave;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setViews() {
-        Button nextButton = findViewById(R.id.textView);
+        Button nextButton = findViewById(R.id.btnAdd);
         nextButton.setOnClickListener(onClick_button);
     }
 
@@ -124,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         etNote.setText("");
         btnSave.setEnabled(true);
 
-        save_select = 0;
+        int save_select = 0;
 
     }
 

@@ -26,6 +26,7 @@
         android:layout_weight="10" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="376dp"
         android:layout_height="37dp"
         android:text="@string/tv_lb2_name"
