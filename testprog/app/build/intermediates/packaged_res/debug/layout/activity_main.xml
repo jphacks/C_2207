@@ -22,8 +22,15 @@
     <CalendarView
         android:id="@+id/calendar"
         android:layout_width="400dp"
-        android:layout_height="405dp"
+        android:layout_height="400dp"
         android:layout_weight="10" />
+
+    <Button
+        android:id="@+id/btnca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="oncaButtonClick"
+        android:text="memo" />
 
     <TextView
         android:id="@+id/textView"

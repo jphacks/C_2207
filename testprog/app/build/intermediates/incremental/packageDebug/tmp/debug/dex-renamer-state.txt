@@ -1,10 +1,13 @@
-#Sat Oct 22 02:37:20 JST 2022
-base.2=C\:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+#Sat Oct 22 13:16:19 JST 2022
+path.3=13/classes.dex
 path.2=12/classes.dex
-base.1=C\:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=C\:\\Users\\momon\\AndroidStudioProjects\\C_2207\\testprog\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+path.0=classes.dex
+base.3=C\:\\Users\\suzukikaho\\AndroidStudioProjects\\C_2207\\C_2207\\testprog\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.2=C\:\\Users\\suzukikaho\\AndroidStudioProjects\\C_2207\\C_2207\\testprog\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.1=C\:\\Users\\suzukikaho\\AndroidStudioProjects\\C_2207\\C_2207\\testprog\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\suzukikaho\\AndroidStudioProjects\\C_2207\\C_2207\\testprog\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-path.0=classes.dex

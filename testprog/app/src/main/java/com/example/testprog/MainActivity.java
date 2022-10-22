@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         setViews();
+        setViews2();
 
         CalendarView calendar = findViewById(R.id.calendar);
         calendar.setOnDateChangeListener(
@@ -108,6 +109,20 @@ public class MainActivity extends AppCompatActivity {
                 "Corge options : " + setstrCorgeOptions + "\n";
         textviewSettings.setText( strSettings );
     }
+    private void setViews2() {
+        Button nextButton = findViewById(R.id.btnca);
+        nextButton.setOnClickListener(onClick_button2);
+    }
+
+
+
+    private View.OnClickListener onClick_button2 = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent(getApplication(), SubCalenderActivity.class);
+            startActivity(intent);
+        }
+    };
 
 
 

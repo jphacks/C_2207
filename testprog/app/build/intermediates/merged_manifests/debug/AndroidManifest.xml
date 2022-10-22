@@ -24,6 +24,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.Testprog" >
         <activity
+            android:name="com.example.testprog.SubCalenderActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sub_calender"
+            android:theme="@style/Theme.Testprog.NoActionBar" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.testprog.MySettingsActivity"
             android:exported="false"
             android:label="@string/title_activity_my_settings" >
@@ -57,6 +66,13 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
     </application>
 
 </manifest>
