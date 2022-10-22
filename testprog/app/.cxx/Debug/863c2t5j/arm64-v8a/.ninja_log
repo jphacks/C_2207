@@ -1,0 +1,4 @@
+# ninja log v5
+1	145	687966789	CMakeFiles/testprog.dir/testprog.cpp.o	9ced77d45d58f2c5
+145	539	687966789	C:/Users/suzukikaho/AndroidStudioProjects/C_2207/C_2207/testprog/app/build/intermediates/cxx/Debug/863c2t5j/obj/arm64-v8a/libtestprog.so	bc5305dbf76a0308
+3	500	688115067	C:/Users/suzukikaho/AndroidStudioProjects/C_2207/C_2207/testprog/app/build/intermediates/cxx/Debug/863c2t5j/obj/arm64-v8a/libtestprog.so	bc5305dbf76a0308

@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "C:\\Users\\suzukikaho\\AndroidStudioProjects\\C_2207\\C_2207\\testprog\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\suzukikaho\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\suzukikaho\\AndroidStudioProjects\\C_2207\\C_2207\\testprog\\app\\.cxx\\RelWithDebInfo\\2112s481\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\suzukikaho\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\suzukikaho\\AndroidStudioProjects\\C_2207\\C_2207\\testprog\\app\\.cxx\\RelWithDebInfo\\2112s481\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "testprog::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "testprog",
+      "output": "C:\\Users\\suzukikaho\\AndroidStudioProjects\\C_2207\\C_2207\\testprog\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2112s481\\obj\\x86\\libtestprog.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\suzukikaho\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\suzukikaho\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

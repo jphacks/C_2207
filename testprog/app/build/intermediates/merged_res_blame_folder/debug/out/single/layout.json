@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\suzukikaho\\.gradle\\daemon\\7.4\\com.example.testprog.app-mergeDebugResources-41:\\layout\\settings_activity.xml",
+        "source": "C:\\Users\\suzukikaho\\.gradle\\daemon\\7.4\\com.example.testprog.app-main-44:\\layout\\settings_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\suzukikaho\\.gradle\\daemon\\7.4\\com.example.testprog.app-mergeDebugResources-41:\\layout\\activity_sub_calender.xml",
+        "source": "C:\\Users\\suzukikaho\\.gradle\\daemon\\7.4\\com.example.testprog.app-main-44:\\layout\\activity_sub_calender.xml"
+    },
+    {
+        "merged": "C:\\Users\\suzukikaho\\.gradle\\daemon\\7.4\\com.example.testprog.app-mergeDebugResources-41:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\suzukikaho\\.gradle\\daemon\\7.4\\com.example.testprog.app-main-44:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.testprog.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.example.testprog.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\suzukikaho\\.gradle\\daemon\\7.4\\com.example.testprog.app-mergeDebugResources-41:\\layout\\activity_sub.xml",
+        "source": "C:\\Users\\suzukikaho\\.gradle\\daemon\\7.4\\com.example.testprog.app-main-44:\\layout\\activity_sub.xml"
+    }
+]
